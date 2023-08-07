@@ -40,8 +40,8 @@ namespace API.Models.Entities
 		public string FeaturedImageUrl { get; set; }
 		public string Visible { get; set; }
 		public string Author { get; set; }
-		public string PublishDate { get; set; }
-		public string ModifiedDate { get; set; }
+		public DateTime PublishDate { get; set; }
+		public DateTime ModifiedDate { get; set; }
 	}
 }
 ```
